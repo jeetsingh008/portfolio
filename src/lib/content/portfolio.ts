@@ -7,16 +7,16 @@
 import { StringKeyValueType } from '../types';
 
 export const socialLinks: StringKeyValueType = {
-  facebook: 'https://www.facebook.com/vatsalsinghkv',
-  instagram: 'https://www.instagram.com/vatsalsinghkv',
-  twitter: 'https://x.com/vatsalsinghkv',
-  github: 'https://github.com/vatsalsinghkv',
-  linkedin: 'https://www.linkedin.com/in/vatsalsinghkv/',
+  facebook: '#',
+  instagram: 'https://www.instagram.com/_jeet_singh_rajput_',
+  twitter: '#',
+  github: 'https://github.com/jeetsingh008',
+  linkedin: 'https://www.linkedin.com/in/jeet-singh9835/',
 };
 
 export const author = {
   name: 'Jeet Singh',
-  email: 'vatsalsinghkv@gmail.com',
+  email: 'iamjeetsingh46@gmail.com',
 };
 
 export const seoData = {
@@ -26,14 +26,14 @@ export const seoData = {
   author: author.name,
   image:
     'https://user-images.githubusercontent.com/68834718/217467445-0b0d2d63-f8ad-4702-8474-814eb2cbb3be.png',
-  url: 'https://vatsalsinghkv.vercel.app/',
+  url: 'https://portfolio-lyart-alpha-14.vercel.app/',
   keywords: [
-    'Vatsal',
+    'Jeet',
     'Jeet Singh',
-    '@vatsalsinghkv',
-    'vatsalsinghkv',
+    '@jeetsingh008',
+    'jeetsingh008',
     'Portfolio',
-    'Vatsal Portfolio ',
+    'Jeet Portfolio ',
     'Jeet Singh Portfolio',
   ],
 };
