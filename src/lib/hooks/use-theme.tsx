@@ -8,7 +8,7 @@ import {
 } from 'react';
 
 const initialState = {
-  isDarkMode: false,
+  isDarkMode: true,
   toggle: () => {
     return;
   },
