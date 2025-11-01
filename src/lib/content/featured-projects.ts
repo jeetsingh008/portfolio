@@ -6,6 +6,25 @@ const featuredProjectsSection: FeaturedProjectsSectionType = {
   projects: [
     {
       id: getId(),
+      name: 'Bookit (Travel Booking Fullstack)',
+      description:
+        'A full-stack travel booking application allowing users to browse, select, and book travel experiences.',
+      tasks:
+        'Built a full-stack monorepo with a Next.js (App Router) frontend and an Express.js layered backend. Implemented real-time search filtering using URL state and a debounced hook. Secured the booking process with atomic (ACID) transactions in Mongoose to prevent double-booking.',
+      url: 'https://bookit-delta-flame.vercel.app/',
+      img: '/images/projects/bookit.png', // You'll need to add a screenshot here
+      tags: [
+        'Next.js',
+        'TypeScript',
+        'Tailwind CSS',
+        'Node.js',
+        'Express.js',
+        'MongoDB',
+        'Mongoose',
+      ],
+    },
+    {
+      id: getId(),
       name: 'Ganpati Tours',
       description:
         'A frontend for a travel agency that offers authentic, personalized tours of India to Spanish travelers.',
@@ -25,25 +44,6 @@ const featuredProjectsSection: FeaturedProjectsSectionType = {
       url: 'https://github.com/jeetsingh008/Streamy-Backend',
       img: '/images/projects/streamy.png',
       tags: ['Node.js', 'Express.js', 'MongoDB', 'JWT', 'Bcrypt', 'Mongoose'],
-    },
-    {
-      id: getId(),
-      name: 'Bookit (Travel Booking Fullstack)',
-      description:
-        'A full-stack travel booking application allowing users to browse, select, and book travel experiences.',
-      tasks:
-        'Built a full-stack monorepo with a Next.js (App Router) frontend and an Express.js layered backend. Implemented real-time search filtering using URL state and a debounced hook. Secured the booking process with atomic (ACID) transactions in Mongoose to prevent double-booking.',
-      url: 'https://bookit-delta-flame.vercel.app/',
-      img: '/images/projects/bookit.png', // You'll need to add a screenshot here
-      tags: [
-        'Next.js',
-        'TypeScript',
-        'Tailwind CSS',
-        'Node.js',
-        'Express.js',
-        'MongoDB',
-        'Mongoose',
-      ],
     },
   ],
 };
