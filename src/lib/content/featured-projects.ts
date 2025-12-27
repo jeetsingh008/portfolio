@@ -6,13 +6,33 @@ const featuredProjectsSection: FeaturedProjectsSectionType = {
   projects: [
     {
       id: getId(),
+      name: 'Command Center (Productivity & Career Tracker)',
+      description:
+        'A Full stack web application with a comprehensive dashboard for developers to track project hours, log daily activities, and manage career milestones.',
+      tasks:
+        'Architected a full-stack MERN solution with a secure Next.js frontend and Express.js backend. Implemented JWT authentication via Auth.js (NextAuth) and deployed a scalable MongoDB database. Features include real-time project logging, visual analytics, and a centralized control panel for career management.',
+      url: 'https://command-center-lilac.vercel.app/', // Updated to your live link
+      img: '/images/projects/command-center.png', // Don't forget to add this screenshot!
+      tags: [
+        'Next.js',
+        'React',
+        'Tailwind CSS',
+        'Node.js',
+        'Express.js',
+        'MongoDB',
+        'Auth.js',
+        'Recharts',
+      ],
+    },
+    {
+      id: getId(),
       name: 'Bookit (Travel Booking Fullstack)',
       description:
         'A full-stack travel booking application allowing users to browse, select, and book travel experiences.',
       tasks:
         'Built a full-stack monorepo with a Next.js (App Router) frontend and an Express.js layered backend. Implemented real-time search filtering using URL state and a debounced hook. Secured the booking process with atomic (ACID) transactions in Mongoose to prevent double-booking.',
       url: 'https://bookit-delta-flame.vercel.app/',
-      img: '/images/projects/bookit.png', // You'll need to add a screenshot here
+      img: '/images/projects/bookit.png',
       tags: [
         'Next.js',
         'TypeScript',
