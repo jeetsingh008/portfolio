@@ -3,9 +3,9 @@ import { SoftwareSkillType } from '@/lib/types';
 import { getId } from '@/lib/utils/helper';
 
 import { ListItem, SkillIcon } from '@/components';
-import { motion, MotionProps } from 'framer-motion';
-
 import { DynamicShowLottie } from '@/components/dynamic/Dynamic';
+
+import { motion, MotionProps } from 'framer-motion';
 
 type Props = {
   lottie?: any;
