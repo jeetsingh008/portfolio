@@ -5,6 +5,7 @@ import Achievements from '@/components/sections/Achievements';
 import Contact from '@/components/sections/Contact';
 import Experience from '@/components/sections/Experience';
 import Hero from '@/components/sections/Hero';
+import OpenSource from '@/components/sections/OpenSource';
 import Projects from '@/components/sections/Projects';
 
 export default function Home() {
@@ -50,6 +51,12 @@ export default function Home() {
             </div>
           </div>
           <Achievements />
+          <div className="max-w-6xl mx-auto">
+            <div className="px-6 md:px-16 lg:px-24">
+              <div className="h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent" />
+            </div>
+          </div>
+          <OpenSource />
           <div className="max-w-6xl mx-auto">
             <div className="px-6 md:px-16 lg:px-24">
               <div className="h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent" />
