@@ -25,6 +25,39 @@ const projects = [
     color: '#0ea5e9',
   },
   {
+    id: 'mern-movie-app',
+    name: 'MERN Movie App',
+    description:
+      'A full-stack movie management app with Role-Based Access Control (RBAC), real-time debounce search, multi-criteria sorting, and background job processing via Redis & BullMQ.',
+    tags: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Redis', 'BullMQ', 'MUI'],
+    live: null,
+    github: 'https://github.com/jeetsingh008/BINNYS_Assignment',
+    featured: false,
+    color: '#f59e0b',
+  },
+  {
+    id: 'markit',
+    name: 'Markit',
+    description:
+      'A real-time bookmark manager with Google OAuth, Row Level Security for private data, and cross-tab synchronization via Supabase Realtime WebSockets.',
+    tags: ['Next.js', 'Supabase', 'Tailwind CSS', 'PostgreSQL', 'Google OAuth'],
+    live: null,
+    github: 'https://github.com/jeetsingh008/Markit',
+    featured: false,
+    color: '#10b981',
+  },
+  {
+    id: 'hospitalink',
+    name: 'HospitaLink',
+    description:
+      'A MERN hospital appointment booking system with three separate portals for Patients, Doctors, and Admins, secured with JWT access & refresh token authentication.',
+    tags: ['React', 'TypeScript', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS'],
+    live: null,
+    github: 'https://github.com/jeetsingh008/HospitaLink',
+    featured: false,
+    color: '#ec4899',
+  },
+  {
     id: 'ganpati-tours',
     name: 'Ganpati Tours',
     description:
@@ -33,7 +66,7 @@ const projects = [
     live: 'https://ganpati-tours-main.vercel.app/',
     github: 'https://github.com/jeetsingh008',
     featured: false,
-    color: '#10b981',
+    color: '#64748b',
   },
   {
     id: 'streamy',
@@ -44,7 +77,7 @@ const projects = [
     live: null,
     github: 'https://github.com/jeetsingh008/Streamy-Backend',
     featured: false,
-    color: '#f59e0b',
+    color: '#38bdf8',
   },
   {
     id: 'pixel-forge',
@@ -55,7 +88,7 @@ const projects = [
     live: 'https://pixel-forge-blush.vercel.app/',
     github: 'https://github.com/jeetsingh008/pixelforge',
     featured: false,
-    color: '#ec4899',
+    color: '#a855f7',
   },
   {
     id: 'postjob',
